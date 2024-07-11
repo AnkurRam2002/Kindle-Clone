@@ -13,13 +13,13 @@ const SignIn = () => {
     password: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     setFormData({
       ...formData,
       [e.target.id]: e.target.value
     });
   };
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e:any) => {
       e.preventDefault();
       const { email, password } = formData;
       try {
@@ -84,7 +84,7 @@ const SignIn = () => {
 
       </form>
       <p className={styles.agreement}>
-        By continuing, you agree to Amazon's
+        By continuing, you agree to Amazon`&apos;`s
         <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088"> Conditions of Use</a> and
         <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496"> Privacy Notice</a>.
       </p>

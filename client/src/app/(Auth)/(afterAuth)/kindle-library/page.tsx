@@ -35,7 +35,7 @@ const Page = () => {
                 setLoading(false);
 
             }
-            catch (err) {
+            catch (err:any) {
                 console.error(err);
                 setError(err.message);
                 setLoading(false);

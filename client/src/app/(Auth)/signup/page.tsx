@@ -15,7 +15,7 @@ const CreateAccount = () => {
   });
  
   const router = useRouter()
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     setFormData({
       ...formData,
       [e.target.id]: e.target.value
@@ -23,7 +23,7 @@ const CreateAccount = () => {
   };
 
 
-const handleSubmit = async (e) => {
+const handleSubmit = async (e:any) => {
     e.preventDefault();
 
     console.log(formData)
@@ -91,10 +91,10 @@ const handleSubmit = async (e) => {
             </form>
 
             <p className={styles.agreement}>
-                By clicking "Create your Amazon account", you agree to the Amazon
+                By clicking `&quot;`Create your Amazon account`&quot;`, you agree to the Amazon
                 <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_condition_of_use?ie=UTF8&nodeId=508088"> Conditions of Use & Sale</a>,
                 the <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Kindle Store Terms of Use</a> and
-                Amazon's <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice</a>.
+                Amazon`&apos;`s <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_signin_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice</a>.
             </p>
 
             <p className={styles.signin}>

@@ -34,13 +34,13 @@ const Page = () => {
                 setBook(data);
                 setLoading(false);
             }
-            catch(err){
+            catch(err:any){
                 setError(err.message);
                 setLoading(false);
             }
         }
         fetchBook()
-    },[])
+    }, [bookid])
 
 
     if (loading) {
@@ -55,17 +55,17 @@ const Page = () => {
             <Navbar />
             <div className={styles.container}>
                 <div className={styles.imageContainer}>
-                    <img src={book.image} alt={book.title} className={styles.bookImage} />
+                    <img src={book!.image} alt={book!.title} className={styles.bookImage} />
                 </div>
                 <div className={styles.details}>
-                    <h1 className={styles.bookTitle}>{book.title}</h1>
-                    <p className={styles.bookAuthor}>by {book.author}</p>
+                    <h1 className={styles.bookTitle}>{book!.title}</h1>
+                    <p className={styles.bookAuthor}>by {book!.author}</p>
                     <div
                         className={styles.bookDescription}
-                        dangerouslySetInnerHTML={{ __html: book.description }}
+                        dangerouslySetInnerHTML={{ __html: book!.description }}
                     />
 
-                    <p className={styles.bookPrice}>{book.price}</p>
+                    <p className={styles.bookPrice}>{book!.price}</p>
 
                     <button className={styles.purchaseButton}
                         onClick={() => {
