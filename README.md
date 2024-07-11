@@ -7,6 +7,7 @@ This project is a Kindle Clone built using Next.js for the frontend, Express for
 - User Authentication: Register and log in users.
 - Book Upload: Upload and manage eBooks.
 - Book Reading: Read eBooks within the app.
+- 
 
 <h3>Technologies Used</h3>
 
