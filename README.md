@@ -14,7 +14,7 @@ This project is a Kindle Clone built using Next.js for the frontend, Express for
 - React: JavaScript library for building user interfaces.
 - Axios: Promise-based HTTP client for the browser and Node.js.
 - Express: Web application framework for Node.js.
-- Multer: Middleware for handling multipart/form-data, used for file uploads.
+- Multer: Middleware used for file uploads.
 - MongoDB Atlas: Cloud-based NoSQL database.
 - JWT: JSON Web Tokens for authentication.
 - bcryptjs: Library for hashing passwords.
