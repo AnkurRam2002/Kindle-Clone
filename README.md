@@ -13,6 +13,7 @@ This project is a Kindle Clone built using Next.js for the frontend, Express for
 
 <h4>Frontend</h4>
 
+- TypeScript: Superset of JavaScript with static types.
 - Next.js: React framework for server-side rendering and static site generation.
 - Axios: Promise-based HTTP client for the browser and Node.js.
 - CSS: Styling for the application.
