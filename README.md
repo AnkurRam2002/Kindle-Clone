@@ -1,6 +1,6 @@
 
 <h1 align="center">Kindle Clone</h1>
-This project is a Kindle Clone built using Next.js for the frontend, Express for the backend, and MongoDB Atlas for data storage. The application supports file uploads using Multer, handles HTTP requests using Axios, and manages cross-origin requests using CORS.
+BookNest is a Kindle Clone built using Next.js for the frontend, Express for the backend, and MongoDB Atlas for data storage. The application supports file uploads using Multer, handles HTTP requests using Axios, and manages cross-origin requests using CORS.
 
 <h3>Features</h3>
 
