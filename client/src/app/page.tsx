@@ -41,7 +41,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <Image src="	https://m.media-amazon.com/images/G/01/kfw/landing/img_kindleWeb_IN._CB610886625_.png"
+      <Image src="https://m.media-amazon.com/images/G/01/kfw/landing/img_kindleWeb_IN._CB610886625_.png"
         alt="Amazon Logo"
         className={styles.bottomimg}
         width={1000} 
