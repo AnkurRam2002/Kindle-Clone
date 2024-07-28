@@ -7,9 +7,12 @@ const nextConfig = {
           {
             protocol: 'https',
             hostname: "images.pexels.com"
+          },
+          {
+            protocol: 'https',
+            hostname: "m.media-amazon.com"
           }
         ],
-        domains: ['m.media-amazon.com'],
     }
       
 };
